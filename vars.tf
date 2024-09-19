@@ -50,28 +50,27 @@ variable "VPC_NAME" {
 }
 
 variable "VPC_CIDR" {
-  default = "172.21.0.0/16"
+  default = "172.0.0.0/16"
 }
 variable "PUBSUB1_CIDR" {
-  default = "172.21.1.0/16"
+  default = "172.0.1.0/24"
 }
-
 variable "PUBSUB2_CIDR" {
-  default = "172.21.2.0/16"
+  default = "172.0.2.0/24"
 }
 variable "PUBSUB3_CIDR" {
-  default = "172.21.3.0/16"
+  default = "172.0.3.0/24"
 }
 
 variable "PRIVSUB1_CIDR" {
-  default = "172.21.4.0/16"
+  default = "172.0.4.0/24"
 }
 variable "PRIVSUB2_CIDR" {
-  default = "172.21.5.0/16"
+  default = "172.0.5.0/24"
 }
 
 variable "PRIVSUB3_CIDR" {
-  default = "172.21.6.0/16"
+  default = "172.0.6.0/24"
 }
 
 

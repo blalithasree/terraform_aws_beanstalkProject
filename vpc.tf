@@ -1,5 +1,5 @@
 module "vpc" {
-  source               = "terraform-aws-modules/vpc/aws/latest"
+  source               = "terraform-aws-modules/vpc/aws"
   name                 = var.VPC_NAME
   cidr                 = var.VPC_CIDR
   azs                  = [var.ZONE1, var.ZONE2, var.ZONE3]
